@@ -38,7 +38,6 @@ function sendProfileQueue() {
   queue = []
   console.info('sending profile queue', queueToSend)
   // here's where we'd actually make the server call to send the queueToSend
-  // data to our backend... But we don't have a backend for this workshop so...
   return Promise.resolve()
 }
 
